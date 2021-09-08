@@ -1,0 +1,23 @@
+{
+    "name": "bigmom/health-ui",
+    "description": "UI for health check",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bigmom\\HealthUi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bigmom\\HealthUi\\Providers\\HealthUiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3",
+        "laravel/framework": "^8.0",
+        "bigmom/health": "dev-master"
+    }
+}
